@@ -51,8 +51,6 @@ The live production website is deployed on **Vercel**.
 **Live:**  
 https://theopenone.vercel.app/
 
-## 📸 Preview
-
 ## 📸 Website Preview
 
 ### 🏠 Homepage
