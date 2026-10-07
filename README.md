@@ -53,7 +53,23 @@ https://theopenone.vercel.app/
 
 ## 📸 Preview
 
-Screenshots and additional project documentation can be added here to showcase the user interface and responsive experience.
+## 📸 Website Preview
+
+### 🏠 Homepage
+
+![THE OPEN ONE Homepage](screenshots/homepage.png)
+
+### 🍕 Food Menu
+
+![THE OPEN ONE Food Menu](screenshots/menu.png)
+
+### 📷 Gallery
+
+![THE OPEN ONE Gallery](screenshots/gallery.png)
+
+### ❤️ About the Restaurant
+
+![THE OPEN ONE About Section](screenshots/about.png)
 
 ## 👨‍💻 Developer
 
