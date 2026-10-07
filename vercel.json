@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/contact",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/index.html"
+    }
+  ]
+}

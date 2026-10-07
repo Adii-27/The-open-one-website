@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#161311" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/pwa-192x192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="THE OPEN ONE" />
+    <title>THE OPEN ONE | Restaurant in Patna, Bihar</title>
+    <meta name="description" content="THE OPEN ONE is a restaurant in Patna serving freshly prepared pizzas, burgers, and snacks. Visit our counter in Patna City for happiness in every bite." />
+    <link rel="canonical" href="https://theopenone.vercel.app/" />
+    <meta property="og:title" content="THE OPEN ONE | Restaurant in Patna, Bihar" />
+    <meta property="og:description" content="THE OPEN ONE is a restaurant in Patna serving freshly prepared pizzas, burgers, and snacks. Visit our counter in Patna City for happiness in every bite." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://theopenone.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "THE OPEN ONE",
+      "description": "THE OPEN ONE is a restaurant in Patna serving freshly prepared pizzas, burgers, and snacks. Visit our counter in Patna City for happiness in every bite.",
+      "url": "https://theopenone.vercel.app/",
+      "telephone": "+917033118790",
+      "image": [
+        "https://theopenone.vercel.app/assets/restaurant/IMG_20260914_221733.webp"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ashok Rajpath Rd, near Aditya Vision, Gurhatta, Khamji Begum Colony, Sadikpur, Patna, Bihar 800008",
+        "addressLocality": "Patna",
+        "addressRegion": "Bihar",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "16:00",
+          "closes": "23:00"
+        }
+      ],
+      "hasMenu": "https://theopenone.vercel.app/#menu",
+      "sameAs": [
+        "https://www.instagram.com/the_openone"
+      ]
+    }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-51BX18JH8B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-51BX18JH8B');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://sdk.cashfree.com/js/v3/cashfree.js" defer></script>
+    <link rel="preload" as="image" href="/assets/menu/hero-pizza-slice.png" fetchpriority="high" />
+  </head>
+  <body class="bg-[#FAF7F2] text-[#191614] antialiased selection:bg-[#D4AF37]/20 selection:text-[#191614]">
+    <div id="root">
+      <div id="initial-app-loader" style="position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #FAF7F2; z-index: 9999; user-select: none;">
+        <style>
+          @keyframes initFoodMotion {
+            0% { transform: translateY(0) scale(1) rotate(0deg); }
+            25% { transform: translateY(-6px) scale(1.04) rotate(-2deg); }
+            50% { transform: translateY(1px) scale(0.97) rotate(1.5deg); }
+            75% { transform: translateY(-2px) scale(1.02) rotate(-0.5deg); }
+            100% { transform: translateY(0) scale(1) rotate(0deg); }
+          }
+          .init-food-anim {
+            animation: initFoodMotion 1300ms cubic-bezier(0.45, 0, 0.25, 1) infinite;
+          }
+          @keyframes dot1 { 0%, 20% { opacity: 0; } 25%, 100% { opacity: 1; } }
+          @keyframes dot2 { 0%, 45% { opacity: 0; } 50%, 100% { opacity: 1; } }
+          @keyframes dot3 { 0%, 70% { opacity: 0; } 75%, 100% { opacity: 1; } }
+          .loading-dot-1 { animation: dot1 1.4s infinite; }
+          .loading-dot-2 { animation: dot2 1.4s infinite; }
+          .loading-dot-3 { animation: dot3 1.4s infinite; }
+          @media (prefers-reduced-motion: reduce) {
+            .init-food-anim, .loading-dot-1, .loading-dot-2, .loading-dot-3 {
+              animation: none !important;
+              transform: none !important;
+              opacity: 1 !important;
+            }
+          }
+        </style>
+        <!-- Exactly ONE Food Visual (Dual-slot zero-reload architecture) -->
+        <div class="init-food-anim" style="display: flex; align-items: center; justify-content: center;">
+          <div style="position: relative; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; user-select: none;">
+            <img id="init-food-img-0" src="/assets/menu/hero-pizza-slice.png" alt="THE OPEN ONE" style="width: 100%; height: 100%; object-fit: contain; pointer-events: none; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.12)); display: block;" />
+            <img id="init-food-img-1" src="/assets/task5-loader/task5-loader-tomato.png" alt="THE OPEN ONE" style="width: 100%; height: 100%; object-fit: contain; pointer-events: none; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.12)); display: none;" />
+          </div>
+        </div>
+        <!-- Loading Text with Animated Dots -->
+        <div style="margin-top: 12px; display: flex; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 500; color: #78716c; letter-spacing: 0.025em;">
+          <span>Loading</span>
+          <span class="loading-dot-1">.</span>
+          <span class="loading-dot-2">.</span>
+          <span class="loading-dot-3">.</span>
+        </div>
+        <script>
+          (function() {
+            var loaderAssets = [
+              '/assets/menu/hero-pizza-slice.png',
+              '/assets/task5-loader/task5-loader-tomato.png',
+              '/assets/menu/hero-french-fries.png',
+              '/assets/task5-loader/task5-loader-green-leaves.png',
+              '/assets/menu/hero-steam-momos.png',
+              '/assets/task5-loader/task5-loader-red-chilli.png',
+              '/assets/menu/hero-loaded-burger.png'
+            ];
+            var activeSlot = 0;
+            var nextAssetIdx = 1;
+            var isBgReady = false;
+            var img0 = document.getElementById('init-food-img-0');
+            var img1 = document.getElementById('init-food-img-1');
+            if (!img0 || !img1) return;
+
+            function prepareNext() {
+              isBgReady = false;
+              var bgImg = activeSlot === 0 ? img1 : img0;
+              bgImg.src = loaderAssets[nextAssetIdx];
+              if (bgImg.complete && bgImg.naturalWidth > 0) {
+                isBgReady = true;
+              } else {
+                bgImg.onload = function() { isBgReady = true; };
+                bgImg.onerror = function() { isBgReady = false; };
+              }
+            }
+
+            // Immediately start loading the second asset in the background slot
+            prepareNext();
+
+            var timer = setInterval(function() {
+              if (!document.getElementById('initial-app-loader')) {
+                clearInterval(timer);
+                return;
+              }
+              // Only advance IF the background image has finished loading
+              if (isBgReady) {
+                if (activeSlot === 0) {
+                  img0.style.display = 'none';
+                  img1.style.display = 'block';
+                  activeSlot = 1;
+                } else {
+                  img1.style.display = 'none';
+                  img0.style.display = 'block';
+                  activeSlot = 0;
+                }
+                nextAssetIdx = (nextAssetIdx + 1) % loaderAssets.length;
+                prepareNext();
+              }
+            }, 1300);
+          })();
+        </script>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

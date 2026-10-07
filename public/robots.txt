@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theopenone.vercel.app/sitemap.xml

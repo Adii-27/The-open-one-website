@@ -1,0 +1,25 @@
+{
+  "name": "THE OPEN ONE",
+  "short_name": "THE OPEN ONE",
+  "description": "HAPPINESS IN EVERY BITE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#161311",
+  "background_color": "#161311",
+  "icons": [
+    {
+      "src": "/icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
