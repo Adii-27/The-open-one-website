@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# THE OPEN ONE — Restaurant Website
 
-# Run and deploy your AI Studio app
+A modern, responsive restaurant website designed and developed for **THE OPEN ONE**, a restaurant based in Patna, Bihar.
 
-This contains everything you need to run your app locally.
+## 🌐 Live Website
 
-View your app in AI Studio: https://ai.studio/apps/6b0ebdab-ec1d-4fef-b65b-453f2a9a4bb2
+**[Visit THE OPEN ONE](https://theopenone.vercel.app/)**
 
-## Run Locally
+## ✨ Highlights
 
-**Prerequisites:**  Node.js
+- Modern restaurant-focused UI/UX
+- Responsive design for desktop, tablet, and mobile
+- Restaurant menu and food presentation
+- Customer reviews and ratings
+- Contact and enquiry experience
+- Progressive Web App (PWA) support
+- SEO-ready structure
+- Branded loading experience
+- Responsive navigation and interactions
+- Production deployment with Vercel
 
+## 🛠️ Technology
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- TypeScript
+- Vite
+- Node.js
+- Express
+- Vercel
+
+## 📱 Responsive Experience
+
+The website is designed to provide a consistent experience across:
+
+- Desktop
+- Tablet
+- Mobile
+
+## 🏗️ Project Architecture
+
+The production application uses a frontend + backend architecture.
+
+This public repository is a **portfolio/showcase repository** containing selected public-facing assets and project configuration.
+
+The production application source code and backend are maintained separately in a private repository because the website is used for a real business.
+
+## 🚀 Deployment
+
+The live production website is deployed on **Vercel**.
+
+**Live:**  
+https://theopenone.vercel.app/
+
+## 📸 Preview
+
+Screenshots and additional project documentation can be added here to showcase the user interface and responsive experience.
+
+## 👨‍💻 Developer
+
+**Aditya Kumar**
+
+GitHub: [@Adii-27](https://github.com/Adii-27)
+
+---
+
+> THE OPEN ONE — Restaurant Website  
+> Designed and developed as a real-world web project.
